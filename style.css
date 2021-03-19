@@ -1,0 +1,61 @@
+body {
+    background-color: #5db5d8;
+    color: #113f4b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 52px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 160px;
+    text-align: center;
+    color:#a9d1df;
+    margin: 0;
+    text-shadow: 0 10px 10px rgba(0,0,0);
+}
+
+h2 {
+    text-align: center;
+}
+
+.my-picture {
+    border-radius: 50%;
+    border: 2px solid brown;
+    overflow: auto;
+    float: left;
+    width: 300px; 
+    }
+
+.crochet-picture {
+    width: 200px;
+    border: 2px solid red;
+    border-radius: 0 15px 0 15px;
+}
+
+.about-me,
+.book,
+.contact {
+    background-color: rgb(59, 114, 185);
+    padding: 50px 15%;
+}
+
+.crochet,
+.movie {
+    background-color: blueviolet;
+    padding: 50px 15%;
+}
+
+header{
+    padding: 150px 30px;
+    background-image: url(fotky/pozadi1.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
